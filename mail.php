@@ -7,7 +7,7 @@ $message = $_POST['message'];
 
 $mailheader = "From:".$name."<".$email.">\r\n";
 
-$recipient = "begriche.riadh@gmail.com";
+$recipient = "riadh-r.begriche@enedis.fr";
 
 mail($recipient, $subject, $message, $mailheader) or die("Error!");
 
